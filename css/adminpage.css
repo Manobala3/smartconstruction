@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,300;1,400&display=swap');
+
+/*home*/
+*{
+      margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body {
+      
+      font-weight: lighter;
+}
+body::-webkit-scrollbar-track
+{
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      
+      background-color:  #F5F5F5;
+}
+
+body::-webkit-scrollbar
+{
+      width: 12px;
+      background-color:  #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+      
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+      background-color: #35363a;
+}
+body {
+      
+      font-weight: lighter;
+      
+  
+}
+
+.container-fluid{
+      background: #35363a;
+      z-index: 999;
+}
+.navbar-brand{
+      margin-right: 0px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+
+}
+.navbar-brand img{
+      height: 80px;
+      width: 200px;
+}
+.navbar-nav{
+      padding:10px;
+}
+
+.nav-link{
+      color: #fff;
+
+}
+.navbar-expand-lg .navbar-nav .nav-item .nav-link{
+      padding-right: 20px;
+      padding-left: 20px;
+
+}
+.active{
+      background: #fff;
+}
+.navbar-nav .nav-item .nav-link:hover{
+      color: #000;
+}
+
+.nav-item .nav-link{
+      border-radius: 25px;
+      margin-left: 10px;
+      margin-right: 10px;
+      
+      
+}
+
+.nav-item :hover{
+      background: #fff;
+      color: #000;
+      
+}
+.nav-link a:hover{
+      color: #000;
+}
+
+.card{
+      margin-left: 10px;
+      height: 200px;
+      
+   
+
+}
+.card:hover{
+      
+      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.row{
+     margin-left: 0px;
+}
+.stat{
+      color: #000;
+      width: 25rem;
+      background: #eee;
+}
+.table:hover{
+      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+      
+}
+
+.about{
+      width: 30%;
+}
+.timeimg{
+      border-radius: 0%;
+      
+}
+.service{
+      background: #eee;
+      padding: 80px;
+      border-radius: 20px;
+      margin-top: 30px;
+
+}
+.service:hover{
+      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.hello{
+       background: #eee;
+      padding: 80px;
+      border-radius: 20px;
+      margin-top: 30px;
+      height: 70vh;
+
+}
+.hello:hover{
+      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.vanakam{
+      margin-left: 55px;
+}
+
+.timedate i{
+   float: left;
+   font-size: 45px;
+}
+.timedate span{
+
+      font-size: 40px;
+      font-weight: 400;
+}
+
+tr{
+      height: 10vh;
+}
+
+@media(max-width:900px){
+      img{
+            height: 100px;
+            width:100px;
+}
+.card{
+      width: 90%;
+}
+
+      }
+
+.income{
+      background: #fff;
+}
+
+.adding{
+      float: left;
+      width: 50%;
+}
+
+.add{
+      width: 20%;
+      margin-left: 10px;
+}
+
+.message{
+      width:500px;
+      height: 200px;
+      background: #35363a;
+      position: fixed;
+      top: 30%;
+      border-radius: 20px;
+      left: 33%;
+}
+.message span{
+      text-align: center;
+      margin-left: 73px;
+      font-size: 30px;
+      font-weight: 400;
+      color: #fff;
+      position: relative;
+      top: 40%;
+}
+.message i{
+      color: #fff;
+      position: absolute;
+      font-weight: 400;
+      font-size: 40px;
+      left: 90%;
+      top: 5%;
+}
+@media(max-width:425px){
+      .hello{
+            height: 110vh;
+      }
+      .adding{
+            width: 100%;
+      }
+      .vanakam{
+            margin-left: 10px;
+      }
+}
+
+#pop-up{
+      display: none;
+}

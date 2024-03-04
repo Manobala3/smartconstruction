@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,300;1,400&display=swap');
+
+/*home*/
+*{
+      margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body {
+      
+      font-weight: lighter;
+      display: grid;
+
+}
+body::-webkit-scrollbar-track
+{
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      
+      background-color:  #F5F5F5;
+}
+
+body::-webkit-scrollbar
+{
+      width: 12px;
+      background-color:  #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+      
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+      background-color: #35363a;
+}
+body {
+      
+      font-weight: lighter;
+      
+
+}
+
+.container-fluid{
+      background: #35363a;
+      z-index: 999;
+}
+.navbar-brand{
+      margin-right: 0px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+
+}
+.navbar-brand img{
+      height: 80px;
+      width: 200px;
+}
+.navbar-nav{
+      padding:10px;
+}
+.navbar-nav .nav-link{
+      color: #fff;
+
+}
+.nav-link{
+      color: #fff;
+
+}
+.active{
+      background: #fff;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-item .nav-link{
+      padding-right: 20px;
+      padding-left: 20px;
+
+}
+.nav-item .nav-link{
+      border-radius: 25px;
+      margin-left: 10px;
+      margin-right: 10px;
+      
+      
+}
+
+.nav-item :hover{
+      background: #fff;
+      
+}
+
+
+
+.services {
+  margin-top: 80px;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  background: #fff;
+  position: relative;
+  
+}
+   
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.column {
+  width: 100%;
+  padding: 1em 1em 1em 1em;
+  text-align: center;
+}
+.card {
+  width: 100%;
+  height: auto    ;
+  padding: 2em 1.5em;
+   
+ 
+  border-radius: 5px;
+  
+  cursor: pointer;
+  transition: 0.5s;
+}
+      
+.column a{
+      text-decoration: none;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1f194c;
+
+}
+.button a{
+      color: #fff;
+}
+p {
+ 
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+
+.card img {
+  background-color: #35363a;
+  position: relative;
+  margin: auto;
+  font-size: 30px;
+  height: 9.5em;
+  width: 18.5em;
+  color: #ffffff;
+
+  display: grid;
+  place-items: center;
+  transition: 0.5s;
+}
+.card:hover {
+
+  background: #eee;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.card:hover .icon-wrapper {
+  
+  color: #35363a;
+}
+.card:hover h3 {
+  color: #000;
+  
+}
+
+
+
+.card:hover p {
+  color: #000;
+}
+@media screen and (min-width: 768px) {
+  .services {
+    padding: 0 2em;
+  }
+  .column {
+    flex: 0 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .services {
+    padding: 1em 3em;
+  }
+  
+}
+.button{
+      display: flex;
+      margin-left: 4px;
+      width: 32%;
+}
+.left{
+      margin-left: 10px;
+}
+
+
+@media(max-width:425px){
+    .services{
+        
+    }
+    .column{
+        padding: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .card{
+        width: 98%;
+        margin-left: 0px;
+    }
+    .card img{
+        width: 12em;
+    }
+}
+
+
+
+.user{
+      color: #fff;
+      
+    }
+
+
+
+
+footer{
+  position:relative;
+  margin-top: 30px;
+  padding: 10px;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)),url("../images/bg.jpg");
+  background-size:cover ;
+  background-position: center;
+}
+
+
+footer p{
+  color: #fff;
+  text-align: center;
+}
+footer h6{
+      color: #000;
+      background: #fff;
+      padding: 10px;
+      border-radius: 25px;
+      text-align: center;
+}
+.foot{
+      color: #fff;
+}
+
+
+
+@media(max-width:425px){
+      .navbar-nav{
+            text-align: center;
+      }
+      .photo{
+            float: left;
+      }
+      .photo img{
+            
+            width: 100%;
+            height: 56vh;
+
+      }
+      .rate{
+            float: left;
+            width: 100%;
+      }
+      .popup{
+
+                      left: -26%;
+                      width: 76%;
+      }
+      .close{
+            margin-right: 0px;
+            margin-top: 0px;
+      }
+      .media-body{
+            text-align: center;
+      }
+      .button{
+            display: flex;
+            width: 100%;
+            margin-left: 40px;
+      }
+      .btn{
+            width: 25%;
+      }
+      .content{
+            float: left;
+      }
+      .scroll{
+     
+      left: 87%;
+      
+}
+.scroll button{
+    padding-right: 25px;
+}
+
+}
+

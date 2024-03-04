@@ -1,0 +1,4 @@
+<html>
+<head> 
+	<title> Example - get seconds between two dates </title>
+	<head><body> <input type="datetime-local" id="start_date"> <input type="datetime-local" id="end_date"> <button onclick="daysDifference()"> Find</button> <p id="display"> </p> <script> function daysDifference() { var date_1=document.getElementById('start_date').value; var date_2=document.getElementById('end_date').value; let date1 = new Date(date_1); let date2 = new Date(date_2); var sec = Math.floor(date2 - date1) / 1000; var min = (sec/60); var hour = (min/60); return document.getElementById('display').innerHTML += sec +"seconds<br>"+min+"minutes<br>"+hour+"hours"; } </script></body></html>

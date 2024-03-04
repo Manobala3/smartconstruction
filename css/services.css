@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,300;1,400&display=swap');
+
+/*home*/
+*{
+      margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body {
+      
+      font-weight: lighter;
+}
+body::-webkit-scrollbar-track
+{
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      
+      background-color:  #F5F5F5;
+}
+
+body::-webkit-scrollbar
+{
+      width: 12px;
+      background-color:  #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+      
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+      background-color: #35363a;
+}
+body {
+      
+      font-weight: lighter;
+      
+ 
+}
+      
+.container-fluid{
+      background: #35363a;
+      z-index: 999;
+}
+.navbar-brand{
+      margin-right: 0px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+
+}
+.navbar-brand img{
+      height: 80px;
+      width: 200px;
+}
+.navbar-nav{
+      padding:10px;
+}
+
+.nav-link{
+      color: #fff;
+
+}
+.navbar-expand-lg .navbar-nav .nav-item .nav-link{
+      padding-right: 20px;
+      padding-left: 20px;
+
+}
+.active{
+      background: #fff;
+}
+
+
+.nav-item .nav-link{
+      border-radius: 25px;
+      margin-left: 10px;
+      margin-right: 10px;
+      cursor: pointer;
+      
+      
+}
+
+
+.nav-item :hover{
+      background: #fff;
+      
+}
+.nav-link a:hover{
+      color: #000;
+      cursor: pointer;
+}
+.nav-link a{
+      color: #000;
+}
+
+
+.services {
+  
+  width: 100%;
+  display: grid;
+  place-items: center;
+  background: #fff;
+  position: relative;
+  margin-top: 7%;
+}
+   
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.column {
+  width: 100%;
+  padding: 1em 1em 1em 1em;
+  text-align: center;
+}
+.card {
+  width: 100%;
+  height: 100%;
+  padding: 2em 1.5em;
+   
+ 
+  border-radius: 5px;
+  
+  cursor: pointer;
+  transition: 0.5s;
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.column a{
+      text-decoration: none;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1f194c;
+
+}
+p {
+ 
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+
+.card img {
+  background-color: #35363a;
+  position: relative;
+  margin: auto;
+  font-size: 30px;
+  height: 9.5em;
+  width: 18.5em;
+  color: #ffffff;
+
+  display: grid;
+  place-items: center;
+  transition: 0.5s;
+}
+.card:hover {
+
+  background: #eee;
+}
+.card:hover .icon-wrapper {
+  
+  color: #35363a;
+}
+.card:hover h3 {
+  color: #ffffff;
+  
+}
+.name_pro{
+    height: 10vh;
+    background: #eee;
+    margin-top: 10px;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.card:hover .name_pro{
+    background: #35363a;
+    color: #000;
+}
+
+.card:hover p {
+  color: #f0f0f0;
+}
+@media screen and (min-width: 768px) {
+  .services {
+    padding: 0 2em;
+  }
+  .column {
+    flex: 0 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .services {
+    padding: 1em 3em;
+  }
+  .scroll{
+     
+      left: 88%;
+      
+}
+  
+}
+
+
+@media(max-width:425px){
+    .services{
+        
+    }
+    .column{
+        padding: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .card{
+        width: 100%;
+    }
+    .card img{
+        width: 12em;
+    }
+    .scroll{
+     
+      left: 86%;
+      
+}
+
+}
+
+
+
+
+
+
+
+
+.user{
+      color: #fff;
+      
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  position:relative;
+  margin-top: 30px;
+  padding: 10px;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)),url("../images/bg.jpg");
+  background-size:cover ;
+  background-position: center;
+}
+
+
+footer p{
+  color: #fff;
+  text-align: center;
+}
+footer h6{
+      color: #fff;
+      
+      padding: 10px;
+     
+      text-align: center;
+}
+.foot{
+      color: #fff;
+}
+
+
+
+@media(max-width:900px){
+      .navbar-nav{
+            text-align: center;
+      }
+}
+
+.popup{
+     position: absolute;
+       box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+      min-width: 400px;
+      min-height: auto;
+      background: #f1f1f1;
+      z-index: 999999;
+      top: 12%;
+      left: 60%;
+      border-radius: 20px;
+      display: none;
+      transition: all 5s toggle;
+
+   
+}
+.popup .close{
+    position: relative;
+    left: 90%;
+    border-radius: 5px 20px 5px 5px;
+}
+.text p{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 0px;
+}
